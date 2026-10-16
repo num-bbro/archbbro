@@ -1,0 +1,11 @@
+[package]
+name = "archimate-studio"
+description = "Desktop ArchiMate modelling tool"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+archimate-core.workspace = true
+eframe = "0.37"
+rfd = "0.17"

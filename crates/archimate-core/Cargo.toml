@@ -1,0 +1,9 @@
+[package]
+name = "archimate-core"
+description = "ArchiMate 3.2 model, rules, validation and Archi (.archimate) file format"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+thiserror = "2"
